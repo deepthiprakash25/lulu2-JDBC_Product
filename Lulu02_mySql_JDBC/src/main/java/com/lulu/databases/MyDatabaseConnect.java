@@ -12,7 +12,7 @@ public class MyDatabaseConnect {
 		
 		try {
 			 Class.forName("com.mysql.cj.jdbc.Driver");
-	         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/lulu02","root", "Deepthi@25");
+	         
 	         Statement statement;
 	         statement = connection.createStatement();
 	         ResultSet resultSet;
